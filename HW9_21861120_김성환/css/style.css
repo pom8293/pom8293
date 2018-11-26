@@ -1,0 +1,61 @@
+body {
+    margin:0;
+    font-family: '맑은 고딕',
+        'Apple SD Gothic Neo',
+        sans-serif;
+}
+/*콘텐츠B: 개요*/
+.conB .container {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.conB .text {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.conB h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size:20px;
+}
+.conB p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.8;
+    opacity: 0.8;
+}
+.conB a {
+    color: #5D9AB2;
+    text-decoration: none;
+}
+
+.conB a:hover {
+    text-decoration: underline;
+}
+.conB .icon {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 40px;
+    width: 2em;
+    line-height: 2em;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #ddd;
+    color: #fff;
+}
+@media (min-width: 768px) {
+    .conB .container {
+        display: flex;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .conB .text {
+        flex:1;
+    }
+}
